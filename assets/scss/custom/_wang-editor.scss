@@ -1,0 +1,31 @@
+.w-e-toolbar {
+  flex-wrap: wrap;
+}
+
+.w-e-text-container {
+  height: max-content !important;
+}
+
+.w-e-panel-container {
+  width: 100% !important;
+  margin-left: -50% !important;
+}
+.w-e-panel-tab-content textarea{
+  height: max-content;
+  min-height: 160px;
+}
+.w-e-panel-tab-content{
+  height: unset !important;
+  max-height: 30rem;
+}
+.w-e-menu{
+  z-index: unset !important;
+}
+.w-e-droplist{
+  z-index: 99999 !important;
+}
+.w-e-toolbar .w-e-droplist ul.w-e-list li.w-e-item {
+  padding: 5px 4px !important;
+  text-align: left;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="147" height="45" style="">
+  <title>my vector image</title>  
+  <g class="currentLayer" style="">    
+    <path fill="#eb1a1a" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero"
+      marker-start="" marker-mid="" marker-end="" id="svg_33"
+      d="M147.12650527871008,1.0147353130327294e-16 L147.12650527871008,15.62721179452512 L147.12650527871008,15.62721179452512 C147.12650527871008,24.257894738108842 112.17568322947741,44.843322942929994 71.54781265335956,44.843322942929994 C30.919942077241718,44.843322942929994 9.71445146547012e-16,24.257894738108842 9.71445146547012e-16,15.62721179452512 L9.71445146547012e-16,1.0147353130327294e-16 L147.12650527871008,1.0147353130327294e-16 z"
+      style="color: rgb(0, 0, 0);" class="" />
+  </g>
+</svg>

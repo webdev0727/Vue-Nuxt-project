@@ -1,0 +1,83 @@
+@keyframes appear0 {
+  0% {
+      width: 0%;
+      opacity: 0.8;
+  }    
+  10% {
+      width: 25%;
+      opacity: 1;
+  }    
+  25% {
+      width: 50%;
+  }    
+  50% {
+      width: 75%;
+  }    
+  80% {
+      width: 100%;
+  }    
+  100% {
+      width: 0%;
+      opacity: 0.5;
+  }
+}
+@keyframes appear1 {
+  0% {
+      width: 25%;
+      opacity: 0.8;
+  }    
+  10% {
+      width: 50%;       
+  }    
+  25% {
+      width: 75%;
+  }    
+  50% {
+      width: 100%;
+  }    
+  80% {
+      width: 0%;
+  }    
+  100% {
+      width: 0%;
+      opacity: 0.5;
+  }
+}
+@keyframes appear2 {
+  0% {
+      width: 50%;
+      opacity: 0.8;
+  }    
+  10% {
+      width: 75%;
+      opacity: 1;
+  }    
+  25% {
+      width: 100%;
+  }    
+  50% {
+      width: 0%;
+  }    
+  80% {
+      width: 25%;
+  }    
+  100% {
+      width: 0%;
+      opacity: 0.5;
+  }
+}
+.loading0{
+  height: 2rem;
+  background: $gray-300;
+  animation: 2s appear0 infinite;
+}
+.loading1{
+  height: 2rem;
+  background: $gray-300;
+  animation: 2s appear1 infinite;
+}
+.loading2{
+  height: 2rem;
+  background: $gray-300;
+  animation: 2s appear2 infinite;
+}

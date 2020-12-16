@@ -1,0 +1,27 @@
+.infinite-loading-container {
+  clear: both;
+  text-align: center;
+
+  [class^=loading-] {
+    display: inline-block;
+    margin: 5px 0;
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+  }
+}
+
+// default spinner
+.loading-default {
+  border: 1px solid $orange !important;
+  &:before {
+    background-color: $orange !important;
+  }
+}
+
+.loading-spiral {
+  border: 2px solid $orange !important;
+  border-right-color: transparent !important;
+}

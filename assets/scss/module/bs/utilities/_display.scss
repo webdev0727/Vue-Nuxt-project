@@ -1,0 +1,20 @@
+// stylelint-disable declaration-no-important
+
+//
+// Utilities for common `display` values
+//
+
+
+@each $value in $displays {
+  .d-#{$value} { display: $value !important; }
+}
+
+//
+// Utilities for toggling `display` in print
+//
+
+@media print {
+  @each $value in $displays {
+    .d-print-#{$value} { display: $value !important; }
+  }
+}

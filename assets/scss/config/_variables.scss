@@ -1,0 +1,173 @@
+// base color
+$blue:    #5D9FFC !default;
+$blue-1:    #0088FF !default;
+$blue-2:    #0060B0 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #FF650A !default;
+$yellow-1:  #FF8F1E !default;
+$yellow:  #FFA916 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$gray-999: #999999 !default;
+$black:    #000 !default;
+
+$gray-bg1: #f5f5f5;
+$mobile-screen-max-width: 768px !default;
+// UE-element theme
+// $--color-primary: #E50113;
+$--color-danger: #E50113 !default; 
+$--color-success: #41B135 !default;
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $--color-danger !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+$dark9:          $gray-999 !default;
+$dark6:       #666666 !default;
+$dark28:      #282828 !default;
+$darkF7:      #F7F7F7 !default;
+$darkC:      #CCCCCC !default;
+
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "dark9":      $dark9,
+    "dark6":      $dark6,
+    "dark28":     $dark28,
+    "darkC":      $darkC,
+    "darkF7":     $darkF7,
+    "orange":     $orange,
+    "white":      $white,
+    "blue-1":     $blue-1,
+    "blue-2":     $blue-2,
+    "yellow-1":   $yellow-1,
+  ),
+  $theme-colors
+);
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3)
+  ),
+  $spacers
+);
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+  ),
+  $sizes
+);
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$line-height-lg:              1.5 !default;
+$line-height-sm:              1.5 !default;
+
+$border-width:                1px !default;
+$border-color:                $gray-300 !default;
+
+$border-radius:               .25rem !default;
+$border-radius-lg:            .3rem !default;
+$border-radius-sm:            .2rem !default;
+
+$rounded-pill:                50rem !default;
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret:                                true !default;
+$enable-rounded:                              true !default;
+$enable-shadows:                              false !default;
+$enable-gradients:                            false !default;
+$enable-transitions:                          true !default;
+$enable-prefers-reduced-motion-media-query:   true !default;
+$enable-hover-media-query:                    false !default; // Deprecated, no longer affects any compiled CSS
+$enable-grid-classes:                         true !default;
+$enable-pointer-cursor-for-buttons:           true !default;
+$enable-print-styles:                         true !default;
+$enable-responsive-font-sizes:                false !default;
+$enable-validation-icons:                     true !default;
+$enable-deprecation-messages:                 true !default;
+
+$emphasized-link-hover-darken-percentage: 15% !default;
+
+// Utilities
+
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;
+$overflows: auto, hidden !default;
+$positions: static, relative, absolute, fixed, sticky !default;
+
+// Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+
+$zindex-dropdown:                   1000 !default;
+$zindex-sticky:                     1020 !default;
+$zindex-fixed:                      1030 !default;
+$zindex-modal-backdrop:             1040 !default;
+$zindex-modal:                      1050 !default;
+$zindex-popover:                    1060 !default;
+$zindex-tooltip:                    1070 !default;
+

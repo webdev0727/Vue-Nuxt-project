@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="23" viewBox="0 0 26 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #f6bdbd;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: url(#pattern);
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 16 12">
+      <image width="16" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAABHNCSVQICAgIfAhkiAAAAQtJREFUKFOdkrErxGEcxj+/LDIYfk/KIFG+SUaDyYTJyK6Us1iVUkoms5SB8hdIBoPEJLuy3DsZDc/sttOru7o7d855xvd93k/f9/s8Rb1e5z9K0hZwUAwKSNIicAnMAy8DAZJ0CBw1Jl4L++5PgCSNALfAMvAMrIRdy6BvQJLmgI2wjzv3kaQJ4AmYAa7DXm/1FNWyXAJugBK4CHu7aUjSGPAKjAOPYecJ2pQBV8Bmy+l+2CdJGgISMA1Uw57tllbzCxlwDgw3TAvADlABPjMk7I+egHyRpADugakO42rYD7260pZCkkaBNyAvLuss7N3fivYjxiRNAu/5UdhFv5Z27UGS9oBa2Kf9AF8XNWSO152j3AAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="ico" transform="translate(-168 -1014)">
+    <g id="椭圆_2" data-name="椭圆 2" class="cls-1" transform="translate(168 1016)">
+      <ellipse class="cls-3" cx="11" cy="10.5" rx="11" ry="10.5"/>
+      <ellipse class="cls-4" cx="11" cy="10.5" rx="10" ry="9.5"/>
+    </g>
+    <rect id="勾" class="cls-2" width="26" height="20" transform="translate(168 1014)"/>
+  </g>
+</svg>

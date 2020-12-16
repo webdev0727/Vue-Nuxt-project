@@ -1,0 +1,62 @@
+/* recommended css code for Ku-tab-line component */
+
+
+.ku-tabs__nav-scroll {
+  overflow: hidden;
+  overflow-x: auto;
+  cursor: pointer;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.ku-tabs__nav-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.ku-tabs__active-bar {
+  position: absolute;
+  background-color: $red;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  z-index: 1;
+  transition: transform 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  list-style: none;
+}
+
+.ku-tabs__item {  
+  height: 2.5rem;
+  line-height: 2.5rem;
+  display: inline-block;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;  
+  position: relative;
+  &.ku-big-font{
+    font-size: 1.2rem;
+  }
+  &.active {
+    font-size: 1.3rem;
+    font-weight: 800;
+    &.ku-big-font{
+      font-size: 1.5rem;
+    }
+  }
+  &:nth-child(2) {
+    padding-left: 0 !important;
+  }
+  &:last-child {
+    padding-right: 0 !important;
+  }
+}
+
+
+.ku-tabs__nav {
+  white-space: nowrap;
+  position: relative;
+  transition: transform .3s;
+  float: left;
+  z-index: 2;
+}

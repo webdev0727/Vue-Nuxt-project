@@ -1,0 +1,86 @@
+{
+    "www": {
+        "/":{
+            "title": "蚂蚁街antway-文具行业线上线下综合服务平台-网上交易会",
+            "keywords": "文具办公用品在线参展,网上展览会,文具新贸易,文具行业网上交易会,蚂蚁街,Antway",
+            "description": "作为文具行业的线上线下综合服务平台,蚂蚁街antway涵盖展览、贸易、资讯、社交四大块，对于供应商和采购商而言,是文具办公用品贸易不可或缺的好平台."
+        },
+        "/en":{
+            "title": "Antway.cn- China Stationery, Stationery & Office supplies, Stationery Importers & exporters, stationery trade",
+            "keywords": "Stationery Trade, China stationery, Stationery products, Stationery suppliers, Stationery B2B, Office supplies, Stationery manufacturer，Antway.cn",
+            "description": "Stationery, Stationery &amp; Office supplies B2B, Stationery manufacturer, China Stationery exporters, Stationery suppliers, Stationery factories, China Stationery products, Global Stationery trade starts from Stationerytrade.com,Import &amp; Export b2b Marketplac…."
+        },
+        "/purchase":{
+            "title": "采购宝-采购商采购文具办公用品，海外买家在线采购文具办公用品",
+            "keywords": "文具办公用品采购信息，文具采购，办公用品采购，蚂蚁街, Antway",
+            "description": "蚂蚁街采购宝为文具办公用品行业采购商提供免费发布询价单信息、采购信息的功能。高质量供应商会在第一时间获知询价单信息，帮助您快速完成采购目标。"
+        },
+        "/en/purchase":{
+            "title": "Sourcing Solutions，New stationery & office supplies buying leads, Stationery Buyer, Buy stationery",
+            "keywords": "Stationery Buying Leads, Buy stationery & office supplies",
+            "description": "New Stationery Buying Leads, Buy stationery & office supplies, Stationery & office supplies buyer,Purchase stationery."
+        },
+        "/product":{
+            "title": "文具产品，办公用品-最新文具产品目录，文具办公用品产品在线展厅",
+            "keywords": "文具办公用品海量产品目录，蚂蚁街, Antway",
+            "description": "蚂蚁街收纳宁波文具展近两千家高质量参展商产品，高质量供应商会在第一时间获知询价单信息，帮助您快速完成采购目标。"
+        },
+        "/en/product":{
+            "title": "Stationery Catalogs, china stationery products, stationery items, Stationery Catalogue",
+            "keywords": "China Stationery, Stationery supplies, Stationery Catalogue, stationery export & import",
+            "description": "Stationery products, China Stationery Catalogue, office supplies, stationery items, china Stationery supplies"
+        },
+        "/tops":{
+            "title": "蚂蚁街新闻头条-文具办公，家居礼品杂货最新资讯，产品动态，行业信息",
+            "keywords": "产品新闻，行业资讯，头条信息",
+            "description": "文具办公，家居礼品杂货最新资讯，产品动态，行业信息，欢迎有酬投稿。"
+        },
+        "/en/tops":{
+            "title": "",
+            "keywords": "",
+            "description": ""
+        },
+        "/discover":{
+            "title": "发现-文具办公家居杂货商友圈，企业最新动态，在线交流",
+            "keywords": "文具办公商友圈",
+            "description": "欢迎免费发布企业最新动态，文具办公家居杂货行业最新信息"
+        },
+        "/en/discover":{
+            "title": "",
+            "keywords": "",
+            "description": ""
+        },
+        "/activities":{
+            "title": "文具办公家居礼品杂货行业线上线下活动-欢迎报名",
+            "keywords": "文具办公用品活动",
+            "description": "文具办公家居杂货行业活动，采购会，线上线下对接会，行业交流活动等。"
+        },
+        "/en/activities":{
+            "title": "",
+            "keywords": "",
+            "description": ""
+        }
+    },
+    "expo": {
+        "/cnise": {
+            "title": "蚂蚁街antway-文具行业线上线下综合服务平台-网上交易会",
+            "keywords": "文具办公用品在线参展,网上展览会,文具新贸易,文具行业网上交易会,蚂蚁街,Antway",
+            "description": "作为文具行业的线上线下综合服务平台,蚂蚁街antway涵盖展览、贸易、资讯、社交四大块,对于供应商和采购商而言,是文具办公用品贸易不可或缺的好平台."
+        },
+        "/en/cnise": {
+            "title": "Antway.cn - China Stationery, Stationery & Office supplies, Stationery Importers & exporters, stationery trade",
+            "keywords": "Stationery Trade, China stationery, Stationery products, Stationery suppliers, Stationery B2B, Office supplies, Stationery manufacturer,Antway.cn",
+            "description": "Stationery, Stationery &amp; Office supplies B2B, Stationery manufacturer, China Stationery exporters, Stationery suppliers, Stationery factories, China Stationery products, Global Stationery trade starts from Stationerytrade.com,Import &amp; Export b2b Marketplac…."
+        },
+        "/cnise/content/68": {
+            "title": "宁波文具展收费标准-第18届中国国际文具礼品展览会-蚂蚁街",
+            "keywords": "宁波文具展收费标准,第18届中国国际文具礼品展览会,蚂蚁街, Antway",
+            "description": "宁波文具展收费标准，展位收费:普通区域（9平方米起） 人民币9000元/9平方米 优越区域（18平方米起） 人民币10000元/9平方米…"
+        },
+        "/en/cnise/content/68": {
+            "title": "",
+            "keywords": "",
+            "description": ""
+        }
+    }
+}
